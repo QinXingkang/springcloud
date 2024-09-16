@@ -1,0 +1,9 @@
+2024/09/16 14:22:43 [emerg] 11656#10800: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/16 14:24:59 [emerg] 25384#24240: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/16 14:29:30 [emerg] 12456#14456: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/16 14:31:59 [warn] 11344#5164: conflicting server name "localhost" on 0.0.0.0:18080, ignored
+2024/09/16 14:31:59 [warn] 2812#19408: conflicting server name "localhost" on 0.0.0.0:18080, ignored
+2024/09/16 14:32:19 [error] 2812#14500: *1 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/"
+2024/09/16 14:36:08 [emerg] 17300#20864: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/16 14:36:51 [warn] 7852#17184: conflicting server name "localhost" on 0.0.0.0:18080, ignored
+2024/09/16 14:36:51 [warn] 15388#11196: conflicting server name "localhost" on 0.0.0.0:18080, ignored
