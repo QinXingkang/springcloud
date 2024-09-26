@@ -17,6 +17,7 @@ public class HelloController {
 
     @GetMapping
     public String hello(HttpServletRequest request) throws InterruptedException {
+
         Thread.sleep(300);
         String ip = request.getRemoteAddr();
         AtomicInteger ai = countMap.get(ip);

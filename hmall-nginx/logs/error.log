@@ -7,3 +7,21 @@
 2024/09/16 14:36:08 [emerg] 17300#20864: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
 2024/09/16 14:36:51 [warn] 7852#17184: conflicting server name "localhost" on 0.0.0.0:18080, ignored
 2024/09/16 14:36:51 [warn] 15388#11196: conflicting server name "localhost" on 0.0.0.0:18080, ignored
+2024/09/16 22:37:50 [error] 10324#5144: *59 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
+2024/09/16 22:38:45 [error] 10324#5144: *61 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
+2024/09/16 22:39:21 [emerg] 5288#23496: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/16 22:40:48 [error] 10324#5144: *92 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
+2024/09/16 22:41:47 [error] 10324#5144: *113 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
+2024/09/16 22:42:07 [error] 10324#5144: *117 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
+2024/09/18 21:42:43 [emerg] 2812#31128: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:16:53 [emerg] 32820#33340: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:17:39 [emerg] 32492#32260: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:22:05 [emerg] 39124#39120: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:24:56 [emerg] 39452#8616: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:30:14 [emerg] 8812#4784: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:34:57 [emerg] 16704#20816: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:35:19 [emerg] 5236#19500: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:38:47 [emerg] 6768#12956: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:40:08 [emerg] 24772#25588: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/09/23 16:41:12 [error] 11136#11416: *1 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost1, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2024/09/24 20:54:30 [error] 11136#11416: *137 CreateFile() "D:\JavaCode\springcloud\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
