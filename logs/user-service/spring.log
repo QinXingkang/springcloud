@@ -1,36 +1,3 @@
-12:30:31:207  INFO 27736 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.22 on LAPTOP-I43ULS42 with PID 27736 (D:\JavaCode\springcloud\hmall\user-service\target\classes started by 25050 in D:\JavaCode\springcloud)
-12:30:31:211 DEBUG 27736 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-12:30:31:211  INFO 27736 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
-12:30:32:208  INFO 27736 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fab0fee6-7487-39dc-b9b5-7638ae9ed773
-12:30:32:609  INFO 27736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
-12:30:32:620  INFO 27736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-12:30:32:620  INFO 27736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-12:30:32:791  INFO 27736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-12:30:32:791  INFO 27736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1540 ms
-12:30:36:104  INFO 27736 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-12:30:37:092  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 2c3444cc-a3c6-42fe-bf0c-5af16b772a7b
-12:30:37:120  INFO 27736 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 3 keys and 6 values 
-12:30:37:136  INFO 27736 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 4 keys and 9 values 
-12:30:37:143  INFO 27736 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 3 keys and 10 values 
-12:30:37:145  WARN 27736 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-12:30:37:150  INFO 27736 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 1 keys and 5 values 
-12:30:37:156  INFO 27736 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
-12:30:37:174  INFO 27736 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
-12:30:37:176  WARN 27736 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-12:30:37:176  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] RpcClient init label, labels = {module=naming, source=sdk}
-12:30:37:178  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-12:30:37:178  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-12:30:37:178  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-12:30:37:179  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Try to connect to server on start up, server: {serverIp = '192.168.56.128', server main port = 8848}
-12:30:39:630  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Success to connect to server [192.168.56.128:8848] on start up, connectionId = 1727325039610_192.168.56.1_59466
-12:30:39:632  INFO 27736 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Notify connected event to listeners.
-12:30:39:634  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-12:30:39:635  INFO 27736 --- [main] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$949/0x0000000800712840
-12:30:39:698  INFO 27736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
-12:30:39:708  INFO 27736 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.64.1:8084 register finished
-12:30:40:269  INFO 27736 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Receive server push request, request = NotifySubscriberRequest, requestId = 7
-12:30:40:281  INFO 27736 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [2c3444cc-a3c6-42fe-bf0c-5af16b772a7b] Ack server push request, request = NotifySubscriberRequest, requestId = 7
-12:30:40:307  INFO 27736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-12:30:40:311  INFO 27736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-12:30:40:335  INFO 27736 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-12:30:40:433  INFO 27736 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 12.588 seconds (JVM running for 15.037)
+11:17:30:171 DEBUG 19144 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+11:17:30:184 DEBUG 19144 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: Jack(String)
+11:17:30:194 DEBUG 19144 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
