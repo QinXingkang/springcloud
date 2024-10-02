@@ -30,4 +30,12 @@ class SpringAmqpTest {
 
         rabbitTemplate.convertAndSend(exchangeName,null,message);
     }
+
+    @Test
+    public void testDirectQueue(){
+        String exchangeName = "hmall.direct";
+        String message = "hello everyone this is blue";
+
+        rabbitTemplate.convertAndSend(exchangeName,"blue",message);
+    }
 }
